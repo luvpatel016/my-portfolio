@@ -10,23 +10,23 @@ function Projects() {
         <div className="bg-white rounded-lg shadow-md p-6">
           <h3 className="text-xl font-semibold mb-2">Weather App</h3>
           <p className="text-gray-700">
-            A React-based weather app that shows real-time weather using an API.
+          Real-time weather info using OpenWeather API
           </p>
         </div>
 
         {/* Project Card 2 */}
         <div className="bg-white rounded-lg shadow-md p-6">
-          <h3 className="text-xl font-semibold mb-2">Stock Price App</h3>
+          <h3 className="text-xl font-semibold mb-2">Tetris Game</h3>
           <p className="text-gray-700">
-            Lets users search stocks and see their latest prices and charts.
+          A fun browser-based game built from scratch
           </p>
         </div>
 
         {/* Project Card 3 */}
         <div className="bg-white rounded-lg shadow-md p-6">
-          <h3 className="text-xl font-semibold mb-2">NASA Clone Page</h3>
+          <h3 className="text-xl font-semibold mb-2">Music Player</h3>
           <p className="text-gray-700">
-            A pixel-perfect clone of the NASA website built for a final exam.
+          Fully functioning custom MP3 player
           </p>
         </div>
       </div>
