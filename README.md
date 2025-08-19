@@ -11,7 +11,7 @@ Welcome to my personal React portfolio site!
 ## 💼 Featured Projects
 
 - 🎮 Tetris Game – A fun browser-based game built from scratch
-- Weather App – Real-time weather info using OpenWeather API
+- ⛅️ Weather App – Real-time weather info using OpenWeather API
 - 🎵 Music Player – Fully functioning custom MP3 player
 
 ## 🧠 Skills & Tech Used
@@ -29,7 +29,7 @@ Welcome to my personal React portfolio site!
 
 ## 🔗 Live Site
 
-Coming soon…
+[Check Out My-Portfolio](https://luvpatel016.github.io/my-portfolio/)
 
 ## 📬 Contact
 
