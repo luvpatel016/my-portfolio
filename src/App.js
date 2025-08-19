@@ -1,6 +1,7 @@
+import './App.css';
 function App() {
   return (
-    <div className="container">
+    <div className="App">
       <h1>Luv Patel's Developer Portfolio</h1>
       <p style={{ textAlign: 'center' }}>
         Welcome to my personal React portfolio site!
