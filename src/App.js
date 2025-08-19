@@ -1,5 +1,11 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 import './App.css';
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 800 });
+  }, []);  
   return (
     <div className="App">
       <h1>Luv Patel's Developer Portfolio</h1>
@@ -7,7 +13,7 @@ function App() {
         Building my dreams, one line of code at a time. 
       </p>
 
-      <section>
+      <section data-aos="fade-up">
         <h2>🚀 Skills Demonstrated</h2>
         <ul>
           <li>React.js</li>
@@ -17,16 +23,31 @@ function App() {
         </ul>
       </section>
 
-      <section>
+      <section data-aos="fade-right">
         <h2>🎯 Featured Projects</h2>
         <ul>
-          <li>🎮 Tetris Game – <span style={{ color: "#ccc" }}>A fun browser-based game built from scratch</span></li>
-          <li>☁️ Weather App – <span style={{ color: "#ccc" }}>Real-time weather info using OpenWeather API</span></li>
-          <li>🎵 Music Player – <span style={{ color: "#ccc" }}>Fully functioning custom MP3 player</span></li>
+        <li>
+  🎮 <a href="https://luvpatel016.github.io/Tetris-Game/" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none' }}>
+    Tetris Game
+  </a> – <span style={{ color: "#ccc" }}>A fun browser-based game built from scratch</span>
+</li>
+
+<li>
+  ☁️ <a href="https://your-weather-link.com" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none' }}>
+    Weather App
+  </a> – <span style={{ color: "#ccc" }}>Real-time weather info using OpenWeather API</span>
+</li>
+
+<li>
+  🎵 <a href="https://luvpatel016.github.io/music-player/" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none' }}>
+    Music Player
+  </a> – <span style={{ color: "#ccc" }}>Fully functioning custom MP3 player</span>
+</li>
+
         </ul>
       </section>
 
-      <section>
+      <section data-aos="fade-left">
         <h2>🧠 Skills & Tech Used</h2>
         <ul>
           <li>React.js</li>
@@ -36,7 +57,7 @@ function App() {
         </ul>
       </section>
 
-      <section>
+      <section data-aos="zoom-in">
         <h2>🗂️ Folder Structure</h2>
         <ul>
           <li><code>/src/components</code> – Reusable components like Header, Footer, etc.</li>
