@@ -4,7 +4,7 @@ function App() {
     <div className="App">
       <h1>Luv Patel's Developer Portfolio</h1>
       <p style={{ textAlign: 'center' }}>
-        Welcome to my personal React portfolio site!
+        Building my dreams, one line of code at a time. 
       </p>
 
       <section>
