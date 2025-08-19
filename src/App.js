@@ -1,3 +1,4 @@
+import AnimatedNavbar from './AnimatedNavbar';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -7,7 +8,9 @@ function App() {
     AOS.init({ duration: 800 });
   }, []);  
   return (
+    
     <div className="App">
+      <AnimatedNavbar />
       <h1>Luv Patel's Developer Portfolio</h1>
       <p style={{ textAlign: 'center' }}>
         Building my dreams, one line of code at a time. 
