@@ -1,3 +1,4 @@
+/* Base Styles */
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -37,18 +38,71 @@ a {
 a:hover {
   text-decoration: underline;
 }
-/* 📱 Mobile View (Max width: 768px) */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Button Container (inside navbar maybe) */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+/* 📱 Mobile View */
 @media (max-width: 768px) {
-  section {
-    margin: 20px 15px;
-    padding: 15px;
-    max-width: 100%;
-    box-shadow: none;
-    border-radius: 8px;
+  h1 {
+    font-size: 1.5rem;
+    padding: 0 10px;
   }
 
-  a {
-    font-size: 1rem;
-    word-break: break-word;
+  section {
+    margin: 20px 10px;
+    padding: 15px;
+  }
+
+  .button-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button-container button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  ul li {
+    font-size: 0.95rem;
+  }
+}
+
+/* 📱 Landscape phones */
+@media (max-height: 500px) and (orientation: landscape) {
+  .App {
+    padding: 10px;
+  }
+
+  section {
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+  h1 {
+    font-size: 1.2rem;
   }
 }
